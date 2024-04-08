@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    z-index: -1;
+    }
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #00000070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fplogo {
+    height: 60px;
+    padding: 4px;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    }
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px; 
+    }
+
+a:hover {
+    color: #f7bd03;
+}
+
+.welcome {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Charm";
+    text-align: center;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.classictaste {
+    color: #f7bd03;
+    font-size: 100px;
+    font-family: "Philosopher";
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px 0px 0px;
+}
+
+.resto {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Bebas Neue";
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 250;
+    margin-top: 0px;
+}
+
+.line1 {
+    height: 3px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    margin: 20px 0px -20px 340px;
+}
+
+.line2 {
+    height: 3px;
+    width: 220px;
+    background-color: #ffffff;
+    display: flex;
+    margin: -20px 0px 20px 805px;
+}
+
+.info {
+    width: 700px;
+    height: 150px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    font-size: 19px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.btnContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+
+}
+
+.order {
+    height: 50px;
+    width: 160px;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    font-family: "Bebas Neue";
+    border-color: #f7bd03;
+    border-style: solid;
+    background-color: transparent;
+    border-width: 2px;
+    font-weight: 50;
+    text-shadow: #ffffff;
+}
+
+.order:hover {
+    cursor: pointer;
+    background-color: #f7bd03;
+    border-color: #ffffff;
+}
