@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("bgimage\ 1.png");
+    background-image: url("pics/bgimage\ 1.png");
     background-size: cover;
     background-position-y: -100px;
     background-repeat: no-repeat;
@@ -45,9 +45,9 @@ a:hover {
 }
 
 .logocontainer{
-  position: absolute;
-  top: 160px;
-  left: 56px;
+    position: absolute;
+    top: 160px;
+    left: 56px;
 }
 
 .logo {
@@ -55,13 +55,13 @@ a:hover {
 }
 
 .info {
-  color: #ffffff;
-  font-family: "Cormorant Garamond";
-  font-size: 20px;
-  position: absolute;
-  text-align: center;
-  top: 187px;
-  left: 50px;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 187px;
+    left: 50px;
 }
 
 .form {
@@ -131,15 +131,16 @@ a:hover {
 }
 
 .inputbox2 {
-  height: 30px;
-  width: 195px;
-  border-radius: 4px;
-  border-style:hidden;
-  border-width: 1.5px;
-  margin-bottom: 7px;
-  color: #000000;
-  padding-left: 9px;
+    height: 30px;
+    width: 195px;
+    border-radius: 4px;
+    border-style:hidden;
+    border-width: 1.5px;
+    margin-bottom: 7px;
+    color: #000000;
+    padding-left: 9px;
 }
+
 
 .cuisine {
     flex-direction: column;
