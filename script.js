@@ -9,7 +9,7 @@ dropdownToggle.addEventListener("click", () => {
 
 menuItems.forEach(menuItem => {
     menuItem.addEventListener("click", (event) => {
-        event.stopPropagation(); // Prevent event from bubbling up
+        event.stopPropagation();
         const selectedOption = menuItem.textContent;
         dropdownToggle.querySelector("span").textContent = selectedOption;
         const dropdownMenu = document.querySelector("#dropdown > .menu");
